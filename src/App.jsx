@@ -1,11 +1,8 @@
-import BlackWhiteGlobe from "./components/BlackWhiteGlobe";
+import Header from "./components/Header.jsx"
 
 function App() {
   return (
-    <div>
-      <h1>Portfolio</h1>
-      <BlackWhiteGlobe />
-    </div>
+    <Header />
   );
 }
 
