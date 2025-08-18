@@ -1,7 +1,9 @@
-
+import EarthSection from "../components/accueil/earthSection"
 
 function Accueil() {
-    return <h1>Accueil</h1>
+    return (
+        <EarthSection />
+    )
 }
 
 export default Accueil
