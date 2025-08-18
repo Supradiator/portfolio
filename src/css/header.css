@@ -40,3 +40,7 @@ button:hover {
 button:hover .icon {
     opacity: 1;
 }
+
+.active-link button{
+    background-color: black;
+}

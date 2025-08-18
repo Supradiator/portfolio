@@ -1,4 +1,5 @@
 import "../css/header.css"
+import { NavLink } from "react-router-dom"
 import { House, ImageSquare, Barbell, Phone } from "phosphor-react";
 
 function Header() {
@@ -9,28 +10,36 @@ function Header() {
             </div>
             <div className="btnContainer">
                 <div className="nav">
-                    <button>
-                        Accueil 
-                        <House className="house icon" />
-                    </button>
+                    <NavLink to="/" className={({ isActive }) => isActive ? "active-link" : ""} >
+                        <button>
+                            Accueil 
+                            <House className="icon" />
+                        </button>
+                    </NavLink>
                 </div>
                 <div className="nav">
-                    <button>
-                        Portfolio
-                        <ImageSquare className="pics icon" />
-                    </button>
+                    <NavLink to="/portfolio" className={({ isActive }) => isActive ? "active-link" : ""} >
+                        <button>
+                            Portfolio
+                            <ImageSquare className="icon" />
+                        </button>
+                    </NavLink>
                 </div>
                 <div className="nav">
-                    <button>
-                        Compétences
-                        <Barbell className="barbell icon" />
-                    </button>
+                    <NavLink to="/competences" className={({ isActive }) => isActive ? "active-link" : ""} >
+                        <button>
+                            Compétences
+                            <Barbell className="icon" />
+                        </button>
+                    </NavLink>
                 </div>
                 <div className="nav">
-                    <button>
-                        Contact
-                        <Phone className="phone icon" />
-                    </button>
+                    <NavLink to="/contact" className={({ isActive }) => isActive ? "active-link" : ""} >
+                        <button>
+                            Contact
+                            <Phone className="icon" />
+                        </button>
+                    </NavLink>
                 </div>
             </div>
         </div>
