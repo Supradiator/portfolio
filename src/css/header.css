@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=ADLaM+Display:wght@200;400;500;700&display=swap");
 
+
 .container {
     margin: 40px;
     display: flex;
@@ -21,7 +22,7 @@
     flex-direction: row;
 }
 
-button {
+.btnNav {
     position: relative;
     margin-right: 40px;
     border: none;
@@ -33,14 +34,14 @@ button {
     padding: 5px 20px 10px 20px;
 }
 
-button:hover {
+.btnNav:hover {
     background: black;
 }
 
-button:hover .icon {
+.btnNav:hover .icon {
     opacity: 1;
 }
 
-.active-link button{
+.active-link .btnNav{
     background-color: black;
 }

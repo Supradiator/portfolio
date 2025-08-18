@@ -4,19 +4,25 @@ import Accueil from "./pages/Accueil.jsx"
 import Portfolio from "./pages/Portfolio.jsx"
 import Competences from "./pages/Competences.jsx"
 import Contact from "./pages/Contact.jsx"
+import Footer from "./components/Footer.jsx"
+import "./css/app.css"
 
 function App() {
   return (
-    <>
-      <Header />
+    <div className="appContainer">
+        <Header />
 
-      <Routes>
-        <Route path="/" element={<Accueil />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/competences" element={<Competences />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </>
+        <main className="mainContent">
+          <Routes>
+            <Route path="/" element={<Accueil />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/competences" element={<Competences />} />
+            <Route path="/contact" element={<Contact />} />
+        </Routes>
+        </main>
+
+        <Footer />
+    </div>
   )
 }
 

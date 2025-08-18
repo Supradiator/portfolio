@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=ADLaM+Display:wght@200;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    font-family: 'ADLaM Display', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+.footerLogo {
+    height: 200px;
+}
+
+.footerTxt {
+    display: flex;
+    gap: 5px;
+}
+
+.cprTxt {
+    position: absolute;
+    bottom: 10%;
+    font-size: 10px;
+}
