@@ -1,4 +1,5 @@
 import "../../css/accueil/EarthSection.css" 
+import { Link } from "react-router-dom"
 
 function EarthSection() {
     return (
@@ -9,14 +10,17 @@ function EarthSection() {
                 src="/src/assets/earth.glb"
                 alt="Terre 3D"
                 auto-rotate
+                auto-rotate-delay="0"
+                rotation-per-second="10deg"
                 camera-controls
+                disable-zoom
+                disable-tap
                 style={{ width: "800px", height: "800px" }}
-                min-camera-orbit="auto auto 5m"
-                max-camera-orbit="auto auto 5m"
-                min-field-of-view="30deg"
-                max-field-of-view="30deg"
                 interaction-prompt="none"
             />
+            <Link to="/contact">
+                <button className="contactBtn">Me contacter</button>
+            </Link>
         </div>
 
     )
