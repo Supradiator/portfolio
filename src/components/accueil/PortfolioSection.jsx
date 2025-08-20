@@ -6,6 +6,7 @@ import ohmyfood from "../../assets/present_pics/ohmyfood.webp"
 import { CaretLeft, CaretRight } from "phosphor-react"
 import ghost1 from "../../assets/ghost/ghost1.webp"
 import ghost2 from "../../assets/ghost/ghost2.webp"
+import { Link } from "react-router-dom"
 
 function PortfolioSection(){
 
@@ -52,7 +53,7 @@ function PortfolioSection(){
                         </>
                     )
                 })}
-                <button className="portfolioBtn">Voir mon portfolio</button>
+                <Link to={"/contact"} className="portfolioBtn">Voir mon portfolio</Link>
 
                 <CaretLeft size={60} className="arrow left" onClick={prevSlide} />
                 <CaretRight size={60} className="arrow right" onClick={nextSlide} />
