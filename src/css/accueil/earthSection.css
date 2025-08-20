@@ -36,10 +36,13 @@
   font-size: 20px;
   border-radius: 30px;
   border: solid 2px white;
+  cursor: pointer;
+  box-shadow: 0 0 4px white;
 }
 
 .contactBtn:hover {
   background-color: black;
+  box-shadow: 0 0 10px white;
 }
 
 model-viewer {

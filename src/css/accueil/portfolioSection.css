@@ -13,6 +13,7 @@
 }
 
 .portfolioTitle {
+    font-size: 40px;
     text-align: center;
     border: solid 1px;
     border-top: none;
@@ -78,4 +79,22 @@
 
 .ghost {
     position: absolute;
+}
+
+
+.portfolioBtn {
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    border: solid 2px white;
+    box-shadow: 0 0 4px black;
+}
+
+.portfolioBtn:hover {
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
 }

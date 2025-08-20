@@ -48,9 +48,11 @@ function PortfolioSection(){
                                     <img src={ghost1} className="ghost ghost2" style={{ bottom: "250px", right: "200px" }} alt="fantome 2" />
                                 </div>
                             )}
+                            
                         </>
                     )
                 })}
+                <button className="portfolioBtn">Voir mon portfolio</button>
 
                 <CaretLeft size={60} className="arrow left" onClick={prevSlide} />
                 <CaretRight size={60} className="arrow right" onClick={nextSlide} />
