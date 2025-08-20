@@ -1,4 +1,4 @@
-import "../../css/accueil/EarthSection.css" 
+import "../../css/accueil/earthSection.css" 
 import { Link } from "react-router-dom"
 
 function EarthSection() {

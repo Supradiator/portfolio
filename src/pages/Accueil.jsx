@@ -1,11 +1,11 @@
 import EarthSection from "../components/accueil/earthSection"
-import Portfolio from "../components/accueil/Portfolio"
+import PortfolioSection from "../components/accueil/PortfolioSection"
 
 function Accueil() {
     return (
         <div>
             <EarthSection />
-            <Portfolio />
+            <PortfolioSection />
         </div>
     )
 }

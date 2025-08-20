@@ -9,6 +9,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    padding: 200px 0;
 }
 
 .portfolioTitle {
@@ -19,4 +20,62 @@
     border-left: none;
     width: 10%;
     margin: auto;
+}
+
+.carouselPortfolio {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.carouselPortfolio img {
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.slide {
+    position: absolute;
+}
+
+.slide.active{
+    z-index: 1;
+}
+
+.slide.next {
+    filter: blur(2px);
+    height: 500px;
+    right: 200px;
+}
+
+.slide.prev {
+    filter: blur(2px);
+    height: 500px;
+    left: 200px;
+}
+
+.arrow {
+    z-index: 5;
+    position: absolute;
+    cursor: pointer;
+}
+
+.left {
+    left: 20%;
+}
+
+.right {
+    right: 20%;
+}
+
+.ghostOrbit {
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.ghost {
+    position: absolute;
 }
