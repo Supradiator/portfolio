@@ -53,7 +53,7 @@ function PortfolioSection(){
                         </>
                     )
                 })}
-                <Link to={"/contact"} className="portfolioBtn">Voir mon portfolio</Link>
+                <Link to={"/portfolio"} className="portfolioBtn">Voir mon portfolio</Link>
 
                 <CaretLeft size={60} className="arrow left" onClick={prevSlide} />
                 <CaretRight size={60} className="arrow right" onClick={nextSlide} />
