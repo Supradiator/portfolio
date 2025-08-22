@@ -1,7 +1,7 @@
 import "../../css/accueil/portfolioSection.css" 
 import { useState } from "react"
 import kasa from "../../assets/present_pics/kasa.webp"
-import booki from "../../assets/present_pics/booki.webP"
+import booki from "../../assets/present_pics/booki.webp"
 import ohmyfood from "../../assets/present_pics/ohmyfood.webp"
 import { CaretLeft, CaretRight } from "phosphor-react"
 import ghost1 from "../../assets/ghost/ghost1.webp"
