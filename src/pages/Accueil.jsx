@@ -1,4 +1,4 @@
-import EarthSection from "../components/accueil/earthSection"
+import EarthSection from "../components/accueil/EarthSection"
 import PortfolioSection from "../components/accueil/PortfolioSection"
 import Test from "../components/accueil/Test"
 
